@@ -1,13 +1,12 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import Card from "./components/Card";
+import CardList from "./components/CardList";
 
 function App() {
   return (
     <div>
       <h1>Github Profile Card</h1>
-      <Card />
+      <CardList />
     </div>
   );
 }
